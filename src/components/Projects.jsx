@@ -45,18 +45,7 @@ export default function Projects() {
     setTimeout(() => setIsManualChange(false),2000); // Forlæng intervallet lidt
   };
 
-  const handlePrev = () => {
-    setIsManualChange(true); // Marker manuel skift
-    setAnimationClass('slide-out');
-
-    setTimeout(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? projects.length - 1 : prevIndex - 1));
-      setCurrentTextIndex((prevIndex) => (prevIndex === 0 ? projects.length - 1 : prevIndex - 1));
-      setAnimationClass('slide-in');
-    }, 1000);
-
-    setTimeout(() => setIsManualChange(false), 15000); // Forlæng intervallet lidt
-  };
+ 
 
   if (projects.length === 0) return <div>Loading...</div>;
 
@@ -95,12 +84,10 @@ export default function Projects() {
           </div>
         </div>
                 {/* Knapper til manuel skift */}
-                <div className="carousel-controls">
-          <button className="prev-button" onClick={handlePrev}>
-            Previous
-          </button>
+                <div className="carousel-button-div">
           <button className="next-button" onClick={handleNext}>
-            Next
+            <p>Se næste projekt</p>
+            <img src={arrow} alt="arrow right"  className='arrow-dem'/>
           </button>
         </div>
       </div>

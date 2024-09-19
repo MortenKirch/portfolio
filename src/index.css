@@ -16,6 +16,7 @@
   --BlackTowhite: light-dark(#1b1b1b,#ffffff);
   --body:light-dark(#ffffff,#1b1b1b);
   --filter: 100%;
+
 }
 
 .dark-mode {
@@ -26,6 +27,7 @@
   --BlackTowhite: light-dark(#ffffff,#1b1b1b);
   --body:light-dark(#1b1b1b, #ffffff);
   --filter: 0%;
+  
 }
 /* Global selector */
 * {
@@ -423,22 +425,23 @@ h4 {
   gap: var(--gap);
 }
 .social-container{
-  align-self: end;
-  justify-self: end;
   display: flex;
-  justify-content: end;
+  
  
 }
+
 .social-container img{
   width: 40%;
-  
+  filter: invert(var(--filter));
  
 
 }
 .social-container a{
 
-  display: flex;
- justify-content: end;
+display: flex;
+justify-content: center;
+
+
 
 }
 .RockMorten {
@@ -605,6 +608,16 @@ form button {
   gap: 10px;
   justify-content: center;
  
+}
+.next-button{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  color: var(--black);
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  gap: 5px;
+  
 }
 .link-flex h3{
   font-size: 16px;
