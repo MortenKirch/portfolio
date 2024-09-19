@@ -1,0 +1,63 @@
+:root {
+  --green: #d5ffd0;
+  --gray: #e8e8e8;
+  --black: #1b1b1b;
+  --white: #ffffff;
+  --border: 14px;
+  --gap: 15px;
+  --padding: 10px;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .fade-in-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+  .projekt-grid{
+   grid-area:4/1/5/4;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: var(--gap);
+  }
+
+  .kompetancer-grid{
+    grid-area: 2/3/3/4;
+
+  }
+  .project-beskrivelse{
+    grid-area: 1/3/2/4;
+  }
+
+  .project-image-container {
+    grid-area: 1/1/3/3;
+    
+  }
+  #om-mig{
+    grid-area: 5/1/6/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .om-mig{
+    grid-area: 1/1/3/2;
+    
+  }
+  .image-slice-1{
+    grid-area: 1/2/2/4;
+  }
+  .image-slice-2{
+    grid-area: 2/2/3/4;
+
+  }
+  .kontakt-grid-2{
+    display: grid;
+     grid-area: 6/1/7/4;
+  
+    }
+

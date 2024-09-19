@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Trøjborgbryg",
+    "description": "Første semester eksamens projekt",
+    "image": "/assets/projects/trojborgbryg.png",
+    "github": "https://github.com/MortenKirch/troejborg-bryg",
+    "direct-link": "https://trojborg-bryg.mortenkirch.dk/index.html",
+    "icons": [
+      "/assets/icons/html.webp",
+      "/assets/icons/css.webp"
+    ]
+  },
+  {
+    "title": "Nippon",
+    "description": "Måltidskasse projekt på andet semester",
+    "image": "/assets/projects/nippon.png",
+    "github": "https://github.com/RuneGSoerensen/Nippon-Projekt",
+    "direct-link": "https://nippon.mortenkirch.dk/index.html",
+    "icons": [
+      "/assets/icons/html.webp",
+      "/assets/icons/css.webp",
+      "/assets/icons/javascript.webp"
+    ]
+  },
+  {
+    "title": "Gotfred",
+    "description": "Andet semester eksamens projekt",
+    "image": "/assets/projects/gotfred.png",
+    "github": "https://github.com/MortenKirch/gotfred-eksamen-2024",
+    "direct-link": "https://gotfred.mortenkirch.dk/",
+    "icons": [
+      "/assets/icons/html.webp",
+      "/assets/icons/css.webp",
+      "/assets/icons/javascript.webp"
+    ]
+  },
+  {
+    "title": "Sharks",
+    "description": "Mobile first projekt, første semester",
+    "image": "/assets/projects/sharks.png",
+    "github": "https://github.com/RuneGSoerensen/Mobile-first-sharks",
+    "direct-link": "https://mobile-first-project.mortenkirch.dk/",
+    "icons": [
+      "/assets/icons/html.webp",
+      "/assets/icons/css.webp"
+    ]
+  },
+  {
+    "title": "Madkammeret",
+    "description": "Fritidsprojekt til Frokost leverandør",
+    "image": "/assets/projects/madkammeret.png",
+    "direct-link": "https://www.madkammer.dk/",
+    "icons": [
+      "/assets/icons/wordpress.webp"
+    ]
+  },
+  {
+    "title": "Kardemums",
+    "description": "Fritidsprojekt til restaurant",
+    "image": "/assets/projects/kardemums.png",
+    "direct-link": "https://kardemums.dk/",
+    "icons": [
+      "/assets/icons/wordpress.webp"
+    ]
+  }
+]
