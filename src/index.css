@@ -426,7 +426,7 @@ h4 {
 }
 .social-container{
   display: flex;
-  
+  justify-content: center;
  
 }
 
@@ -559,7 +559,7 @@ form button {
   border: 3px solid var(--black);
   border-radius: 10px;
   cursor: pointer;
-  max-width: 100px;
+  width: 100px;
   align-self: center;
 }
 
